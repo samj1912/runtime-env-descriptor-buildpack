@@ -1,0 +1,21 @@
+api = "0.6"
+
+[buildpack]
+id = "sam/runtime-env-descriptor"
+version = "0.0.1"
+name = "Runtime Environment Descriptor"
+desription = "Add runtime environemnt variables to your docker image using project descriptor"
+homepage = "https://github.com/samj1912/runtime-env-descriptor-buildpack"
+keywords = ["project", "descriptor", "runtime", "env", "environment", "variable"]
+
+[[buildpack.licenses]]
+type = "MIT"
+
+[[stacks]]
+id = "io.buildpacks.stacks.bionic"
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
