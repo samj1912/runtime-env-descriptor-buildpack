@@ -47,7 +47,7 @@ delimiter = "<env-var-delimiter>"
 
 For example create a `project.toml` file with the following content - 
 
-```
+```toml
 [[io.buildpacks.run.env]]
 name = "test"
 value = "test"
